@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1 class="title">My Image Gallery</h1>
+  <div class="gallery-container">
+    <button class="nav-button" id="prevBtn">⟨</button>
+
+    <div class="gallery" id="gallery">
+      <img src="l.jpg" alt="Image 1" />
+      <img src="m.jpg" alt="Image 2" />
+      <img src="o.jpg" alt="Image 3" />
+      <img src="w.jpg" alt="Image 4" />
+      <img src="u.jpg" alt="Image 5" />
+    </div>
+
+    <button class="nav-button" id="nextBtn">⟩</button>
+  </div>
+
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
